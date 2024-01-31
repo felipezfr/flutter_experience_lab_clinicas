@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "fe_lab_clinicas_api"
+		},
+		{
+			"path": "fe_lab_clinicas_core"
+		},
+		{
+			"path": "fe_lab_clinicas_self_service"
+		}
+	],
+	"settings": {}
+}
