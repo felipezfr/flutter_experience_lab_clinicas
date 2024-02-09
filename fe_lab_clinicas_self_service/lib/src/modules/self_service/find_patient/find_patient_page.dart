@@ -8,6 +8,8 @@ import 'package:signals_flutter/signals_flutter.dart';
 import 'package:validatorless/validatorless.dart';
 import 'package:brasil_fields/brasil_fields.dart';
 
+import '../widgets/lab_clinicas_self_service_app_bar.dart';
+
 class FindPatientPage extends StatefulWidget {
   const FindPatientPage({super.key});
 
@@ -40,24 +42,7 @@ class _FindPatientPageState extends State<FindPatientPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: LabClinicasAppBar(
-        actions: [
-          PopupMenuButton(
-            child: const IconPopupMenuWidget(),
-            itemBuilder: (context) {
-              return [
-                const PopupMenuItem(
-                  value: 1,
-                  child: Text('Reiniciar processo'),
-                ),
-              ];
-            },
-            onSelected: (value) async {
-              Injector.get<SelfServiceController>().restartProcess();
-            },
-          ),
-        ],
-      ),
+      appBar: LabClinicasSelfServiceAppBar(),
       body: LayoutBuilder(builder: (context, constrains) {
         var sizeOf = MediaQuery.sizeOf(context);
         return SingleChildScrollView(
