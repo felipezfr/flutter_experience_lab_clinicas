@@ -17,6 +17,7 @@ enum PatientInformationFormStatus {
 @JsonSerializable()
 class PatientInformationFormModel {
   final String id;
+  final String password;
   final PatientModel patient;
   @JsonKey(name: 'health_insurance_card')
   final String healthInsuranceCard;
@@ -28,6 +29,7 @@ class PatientInformationFormModel {
 
   PatientInformationFormModel({
     required this.id,
+    required this.password,
     required this.patient,
     required this.healthInsuranceCard,
     required this.medicalOrders,
