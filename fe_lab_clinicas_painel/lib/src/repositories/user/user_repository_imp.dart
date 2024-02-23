@@ -19,6 +19,7 @@ class UserRepositoryImp implements UserRepository {
           await restClient.unAuth.post('/auth', data: {
         'email': email,
         'password': password,
+        'admin': true,
       });
 
       return Right(accessToken);

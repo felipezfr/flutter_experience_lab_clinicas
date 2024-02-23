@@ -22,7 +22,7 @@ class DocumentsScanConfirmPage extends StatelessWidget {
     final foto = ModalRoute.of(context)!.settings.arguments as XFile;
 
     controller.pathRemoteStorage.listen(context, () {
-      Navigator.of(context).pop();
+      // Navigator.of(context).pop();
       Navigator.of(context).pop(controller.pathRemoteStorage.value);
     });
 

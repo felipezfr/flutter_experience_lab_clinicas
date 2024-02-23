@@ -15,10 +15,10 @@
     ],
     "attendantDeskAssignment": [
         {
-            "id": "087d7010-a4df-1ec7-83fa-7b4fbbbb41f7",
+            "id": "f1da68a0-2cd9-1ecb-98d4-af10fa4615bf",
             "user_id": "243527a0-fbd0-1e87-b7fb-3509a14ca27f",
-            "desk_number": 2,
-            "date_created": "2024-02-19T16:28:45.107014",
+            "desk_number": 7,
+            "date_created": "2024-02-20T20:05:18.780600",
             "status": "Available"
         }
     ],
@@ -54,6 +54,24 @@
                 "address_complement": "",
                 "state": "RS",
                 "city": "Barra",
+                "district": "Pingo"
+            },
+            "guardian": "",
+            "guardian_identification_number": ""
+        },
+        {
+            "id": "aa288200-e99d-1eca-824d-3fffe47cc1b5",
+            "name": "Felipe Zaffari",
+            "email": "felipe@hotmail.com",
+            "phone_number": "(54) 99616-0061",
+            "document": "043.710.830-99",
+            "address": {
+                "cep": "99.585-000",
+                "street_address": "Br 386",
+                "number": "S/N",
+                "address_complement": "Trevo",
+                "state": "RS",
+                "city": "Barra Funda",
                 "district": "Pingo"
             },
             "guardian": "",
@@ -96,136 +114,21 @@
             "date_created": "2024-02-08T21:55:10.897552",
             "status": "Being Attended",
             "tests": []
+        },
+        {
+            "id": "843407e0-ea10-1eca-824d-3fffe47cc1b5",
+            "patient_id": "aa288200-e99d-1eca-824d-3fffe47cc1b5",
+            "health_insurance_card": "/storage/tveqwglw_jrs_1708462945367.jpg",
+            "medical_order": [
+                "/storage/uztegerm_jrs_1708462966017.jpg"
+            ],
+            "password": "Felipe Zaffari",
+            "date_created": "2024-02-20T21:02:53.468208",
+            "status": "Waiting",
+            "tests": []
         }
     ],
-    "painelCheckin": [
-        {
-            "id": "fd4a5100-64ac-1ebb-83d5-7b6f6c45b9f3",
-            "password": "13 132",
-            "time_called": "2024-02-15T16:41:36.776692",
-            "attendant_desk": 5
-        },
-        {
-            "id": "63814750-bdf7-1ebb-9f9c-754226b9d45e",
-            "password": "13 132",
-            "time_called": "2024-02-15T19:25:14.384067",
-            "attendant_desk": 22
-        },
-        {
-            "id": "091d5720-be8f-1ebb-9800-f392635acf70",
-            "password": "asdasd",
-            "time_called": "2024-02-15T19:26:19.514416",
-            "attendant_desk": 22
-        },
-        {
-            "id": "d8671750-be99-1ebb-9800-f392635acf70",
-            "password": "lhlkjhkl",
-            "time_called": "2024-02-15T19:26:24.154638",
-            "attendant_desk": 22
-        },
-        {
-            "id": "cfa5eed0-bf3d-1ebb-8b7f-85ed0029b56b",
-            "password": "13 132",
-            "time_called": "2024-02-15T19:27:34.578405",
-            "attendant_desk": 22
-        },
-        {
-            "id": "70c225a0-bf42-1ebb-8b7f-85ed0029b56b",
-            "password": "asdasd",
-            "time_called": "2024-02-15T19:27:36.569735",
-            "attendant_desk": 22
-        },
-        {
-            "id": "5d57c2f0-bf46-1ebb-8b7f-85ed0029b56b",
-            "password": "lhlkjhkl",
-            "time_called": "2024-02-15T19:27:38.255633",
-            "attendant_desk": 22
-        },
-        {
-            "id": "5191f210-c04f-1ebb-a92d-4352cd056d7e",
-            "password": "13 132",
-            "time_called": "2024-02-15T19:29:32.052016",
-            "attendant_desk": 22
-        },
-        {
-            "id": "bfba5620-c053-1ebb-a92d-4352cd056d7e",
-            "password": "asdasd",
-            "time_called": "2024-02-15T19:29:33.957252",
-            "attendant_desk": 22
-        },
-        {
-            "id": "30037880-c072-1ebb-a92d-4352cd056d7e",
-            "password": "lhlkjhkl",
-            "time_called": "2024-02-15T19:29:47.024096",
-            "attendant_desk": 22
-        },
-        {
-            "id": "22009e40-c0de-1ebb-b48d-f9f1f7e9fd4e",
-            "password": "13 132",
-            "time_called": "2024-02-15T19:30:33.387749",
-            "attendant_desk": 22
-        },
-        {
-            "id": "e174aa50-c0e3-1ebb-b48d-f9f1f7e9fd4e",
-            "password": "asdasd",
-            "time_called": "2024-02-15T19:30:35.859437",
-            "attendant_desk": 22
-        },
-        {
-            "id": "368cffd0-c0e7-1ebb-b48d-f9f1f7e9fd4e",
-            "password": "lhlkjhkl",
-            "time_called": "2024-02-15T19:30:37.290691",
-            "attendant_desk": 22
-        },
-        {
-            "id": "2f19f530-86cc-1ec7-8cd7-e3188663c7ba",
-            "password": "13 132",
-            "time_called": "2024-02-19T15:33:38.476395",
-            "attendant_desk": 2
-        },
-        {
-            "id": "fc46d650-877a-1ec7-8cd7-e3188663c7ba",
-            "password": "asdasd",
-            "time_called": "2024-02-19T15:34:53.556971",
-            "attendant_desk": 2
-        },
-        {
-            "id": "7664ccb0-8809-1ec7-8cd7-e3188663c7ba",
-            "password": "lhlkjhkl",
-            "time_called": "2024-02-19T15:35:54.755467",
-            "attendant_desk": 5
-        },
-        {
-            "id": "97dc6f90-88ba-1ec7-86ab-9b9afcac0ec6",
-            "password": "13 132",
-            "time_called": "2024-02-19T15:37:10.823537",
-            "attendant_desk": 2
-        },
-        {
-            "id": "f7925d50-899b-1ec7-86ab-9b9afcac0ec6",
-            "password": "asdasd",
-            "time_called": "2024-02-19T15:38:47.614537",
-            "attendant_desk": 2
-        },
-        {
-            "id": "8eae0dc0-9c1f-1ec7-86ab-9b9afcac0ec6",
-            "password": "lhlkjhkl",
-            "time_called": "2024-02-19T16:12:43.269396",
-            "attendant_desk": 4
-        },
-        {
-            "id": "442cd380-a4df-1ec7-83fa-7b4fbbbb41f7",
-            "password": "13 132",
-            "time_called": "2024-02-19T16:28:45.218035",
-            "attendant_desk": 2
-        },
-        {
-            "id": "b9f76e60-a4f6-1ec7-83fa-7b4fbbbb41f7",
-            "password": "asdasd",
-            "time_called": "2024-02-19T16:28:55.289412",
-            "attendant_desk": 2
-        }
-    ],
+    "painelCheckin": [],
     "tests": [
         {
             "id": "3b2526a7-96ad-4884-8d89-aac3a8f8d1e1",
